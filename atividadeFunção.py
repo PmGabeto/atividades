@@ -2,9 +2,9 @@
 def eh_primo(n):
     if n <= 1:
         return False
-    for n in range(2, int(i**0.5) + 1):  # Testa divisores até a raiz quadrada de n
+    for i in range(2, int(n**0.5) + 1):  # Testa divisores até a raiz quadrada de n
         if n % i == 0:
-        return False
+            return False
     return True
 
 # Função principal
